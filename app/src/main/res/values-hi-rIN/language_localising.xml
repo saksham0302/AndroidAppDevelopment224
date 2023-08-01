@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalDemo</string>
+    <string name="Page">पन्ना</string>
+    <string name="Email">ईमेल</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="LOGIN">लॉग इन करें</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSE224Notes"
+        tools:targetApi="31">
+        <activity
+            android:name=".PopUpMenuDemo"
+            android:exported="false" />
+        <activity
+            android:name=".OptionalMenuDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_6.ContextMenuDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_6.CustomAlertDialogDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_6.AlertDialogDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_5.PermissionsExample"
+            android:exported="false" />
+        <activity
+            android:name=".unit_5.AppChooser"
+            android:exported="false" />
+        <activity
+            android:name=".unit_4.ToastDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_4.ExplicitIntentDemo2"
+            android:exported="false" />
+        <activity
+            android:name=".unit_4.ExplicitIntentDemo1"
+            android:exported="false" />
+        <activity
+            android:name=".unit_4.ImplicitIntentDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_4.IntentDisplayDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_3.LanguageLocalising"
+            android:exported="false" />
+        <activity
+            android:name=".unit_3.UndoSnackBarDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_3.SnackBarDemo"
+            android:exported="false" />
+        <activity
+            android:name=".unit_3.LogDemo"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidLifecycle"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtonDemo"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewDemo"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextDemo"
+            android:exported="false" />
+        <activity
+            android:name=".DropDownDemo"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxDemo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
